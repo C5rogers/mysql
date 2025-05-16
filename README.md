@@ -1,6 +1,7 @@
 # Installation
 
 ```sh
+sudo systemctl stop mysql
 task compose -- up -d
 ```
 
