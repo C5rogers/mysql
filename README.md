@@ -10,6 +10,15 @@ task compose -- up -d
 ```sh
 task log_mysql
 ```
+# Accessing without the ip address
+```sh
+sudo sh -c 'echo "172.17.0.1 host.docker.internal" >> /etc/hosts'
+```
+
+# After that you can access it by the host name of
+```sh
+host.docker.internal
+```
 
 # Connecting with client
 
